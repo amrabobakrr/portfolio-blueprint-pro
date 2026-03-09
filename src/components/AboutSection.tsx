@@ -42,7 +42,7 @@ const AboutSection = () => {
               both functional issues and potential security weaknesses before they impact users.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               {highlights.map(({ icon: Icon, text }) => (
                 <div key={text} className="flex items-start gap-3">
                   <Icon className="w-5 h-5 text-primary mt-0.5 shrink-0" />
@@ -50,6 +50,13 @@ const AboutSection = () => {
                 </div>
               ))}
             </div>
+
+            <Button variant="default" size="lg" asChild>
+              <a href="/resume.pdf" download="Amr_Abobakr_QA_Resume.pdf">
+                <Download className="w-4 h-4 mr-2" />
+                Download Full Resume
+              </a>
+            </Button>
           </div>
 
           <div className="relative">

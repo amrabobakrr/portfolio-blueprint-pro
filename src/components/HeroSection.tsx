@@ -69,6 +69,12 @@ const HeroSection = () => {
             <Button variant="hero-outline" size="lg" asChild>
               <a href="#projects">View My Work</a>
             </Button>
+            <Button variant="outline" size="lg" asChild>
+              <a href="/resume.pdf" download="Amr_Abobakr_QA_Resume.pdf">
+                <Download className="w-4 h-4 mr-2" />
+                Download Resume
+              </a>
+            </Button>
           </motion.div>
 
           <motion.div
