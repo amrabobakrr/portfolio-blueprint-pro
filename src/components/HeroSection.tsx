@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { ArrowRight, Shield, Bug, CheckCircle } from "lucide-react";
+import { ArrowRight, Shield, Bug, CheckCircle, Download } from "lucide-react";
 
 const stats = [
   { value: "50+", label: "Bugs Caught" },
