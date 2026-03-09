@@ -84,11 +84,11 @@ const ContactSection = () => {
                   </div>
                   <span className="text-sm">amrhassan666777@gmail.com</span>
                 </a>
-                <a href="https://linkedin.com/in/amrabobakr" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
+                <a href="https://www.linkedin.com/in/amrabobakr" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group">
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                     <Linkedin className="w-5 h-5 text-primary" />
                   </div>
-                  <span className="text-sm">linkedin.com/in/amrabobakr</span>
+                  <span className="text-sm">www.linkedin.com/in/amrabobakr</span>
                 </a>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
