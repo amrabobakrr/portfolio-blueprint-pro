@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { CheckCircle, Shield, Eye, FileText } from "lucide-react";
+import { CheckCircle, Shield, Eye, FileText, Download } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const highlights = [
   { icon: Eye, text: "Testing from a real user perspective" },
