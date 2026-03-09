@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { ArrowRight, Shield, Bug, CheckCircle } from "lucide-react";
+import { ArrowRight, Shield, Bug, CheckCircle, Download } from "lucide-react";
 
 const stats = [
   { value: "50+", label: "Bugs Caught" },
@@ -68,6 +68,12 @@ const HeroSection = () => {
             </Button>
             <Button variant="hero-outline" size="lg" asChild>
               <a href="#projects">View My Work</a>
+            </Button>
+            <Button variant="outline" size="lg" asChild>
+              <a href="/resume.pdf" download="Amr_Abobakr_QA_Resume.pdf">
+                <Download className="w-4 h-4 mr-2" />
+                Download Resume
+              </a>
             </Button>
           </motion.div>
 
